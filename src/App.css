@@ -21,6 +21,10 @@
 	height: 100%;
 }
 
+.project-grid {
+	display: flex;
+}
+
 .avatar {
 	height: 250px;
 	padding-top: 5em;

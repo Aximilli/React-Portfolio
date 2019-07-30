@@ -29,11 +29,15 @@ class Home extends Component {
 									<FontAwesomeIcon icon={[ 'fab', 'instagram' ]} />
 								</a>
 								{/*Github*/}
-								<a href="http://google.com" rel="noopener noreferrer" target="_blank">
+								<a href="https://github.com/Aximilli" rel="noopener noreferrer" target="_blank">
 									<FontAwesomeIcon icon={[ 'fab', 'github' ]} />
 								</a>
 								{/*Linkedin*/}
-								<a href="http://google.com" rel="noopener noreferrer" target="_blank">
+								<a
+									href="https://www.linkedin.com/in/matthieu-thomas-984ba8110/"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
 									<FontAwesomeIcon icon={[ 'fab', 'linkedin' ]} />
 								</a>
 							</div>

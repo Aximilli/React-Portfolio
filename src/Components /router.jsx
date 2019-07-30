@@ -9,10 +9,10 @@ import { Switch, Route } from 'react-router-dom';
 const Router = () => (
 	<Switch>
 		<Route exact path="/" component={Home} />
-		<Route exact path="/" component={Me} />
-		<Route exact path="/" component={Assignments} />
-		<Route exact path="/" component={Job} />
-		<Route exact path="/" component={CallMe} />
+		<Route exact path="/me" component={Me} />
+		<Route exact path="/projects" component={Assignments} />
+		<Route exact path="/resume" component={Job} />
+		<Route exact path="/contacts" component={CallMe} />
 	</Switch>
 );
 

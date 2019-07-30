@@ -14,18 +14,19 @@ function App() {
 			<Layout>
 				<Header class="header-color" title="Dashboard" scroll>
 					<Navigation>
+						<Link to="/">Home</Link>
 						<Link to="/resume">Resume</Link>
-						<Link to="/about">About</Link>
-						<Link to="/project">Projects</Link>
-						<Link to="/contact">Contacts</Link>
+						<Link to="/me">About</Link>
+						<Link to="/projects">Projects</Link>
+						<Link to="/contacts">Contacts</Link>
 					</Navigation>
 				</Header>
 				<Drawer title="Menu">
 					<Navigation>
 						<Link to="/resume">Resume</Link>
-						<Link to="/about">About</Link>
-						<Link to="/project">Projects</Link>
-						<Link to="/contact">Contacts</Link>
+						<Link to="/me">About</Link>
+						<Link to="/projects">Projects</Link>
+						<Link to="/contacts">Contacts</Link>
 					</Navigation>
 				</Drawer>
 				<Content>
